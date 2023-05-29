@@ -1,0 +1,106 @@
+.navbar-brand {
+  width: 50vw;
+}
+.navbar-brand img {
+  width: 100px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  font-size: 2rem;
+}
+
+.carousel-item {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  top: 35px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #6c757d;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.banner-section {
+  position: relative;
+  height: 600px;
+}
+
+.search-engine {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+  width: 85vw;
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.top-flights {
+  background-color: #ddd;
+}
+
+.top-flight-des {
+  display: flex;
+  align-items: center;
+}
+
+.top-flight {
+  height: 420px;
+  overflow: hidden;
+}
+
+.card {
+  margin: 12px 0;
+}
+
+.img {
+  position: relative;
+}
+
+.img div {
+  background-color: #00000087;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  padding: 0 10px;
+  flex-direction: column;
+  text-align: start;
+}
+
+.dash {
+  color: blue;
+  font-size: 1.6rem;
+}
+
+.popular-hotels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.most-popular {
+  display: flex;
+  align-items: center;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  background-color: #eee;
+}
+
+@media (max-width: 1100px) and (min-width: 770px) {
+  .most-popular {
+    width: 540px;
+  }
+}

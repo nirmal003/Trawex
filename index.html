@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>World Travels</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Header Section -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="/"
+            ><img
+              src="https://images.template.net/wp-content/uploads/2014/09/Airline-logo-Designs1.png"
+              alt=""
+              loading="lazy"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Flights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Holidays</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Franch</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Arabic</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  AED
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">AED</a></li>
+                  <li><a class="dropdown-item" href="#">INR</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">USD</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login/Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner Section -->
+
+    <div class="banner-section">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="https://www.ilf.com/wp-content/uploads/2016/10/pic_header_airports-1-1920x1127.jpg"
+              class="d-block w-100"
+              alt="..."
+              loading="lazy"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Campare and Book Cheap Flights</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://g.foolcdn.com/editorial/images/522475/busy-airport-with-planes-and-service-vehicles.jpg"
+              class="d-block w-100"
+              alt="..."
+              loading="lazy"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Campare and Book Cheap Flights</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://tse3.mm.bing.net/th?id=OIP.WHumsAzV4xK-sZNNbhVnDQHaE7&pid=Api&P=0&h=180"
+              class="d-block w-100"
+              alt="..."
+              loading="lazy"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Campare and Book Cheap Flights</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="search-engine d-flex flex-column flex-wrap">
+        <div
+          class="text-left mb-1 w-100 d-block align-items-center align-self-center"
+        >
+          <span class="p-2 mr-3 bg-primary text-white">Flights</span>
+          <span class="p-2 mr-3 bg-white text-center">Hotels</span>
+          <span class="p-2 mr-3 bg-white text-center">Holidays</span>
+        </div>
+        <div class="bg-white w-100 p-2">
+          <input type="radio" name="flight" class="radio" />
+          <label class="text-primary">Round Trip</label>
+          <input type="radio" name="flight" />
+          <label class="text-primary">One-way</label>
+          <input type="radio" name="flight" />
+          <label class="text-primary">Multi-city</label>
+        </div>
+        <div
+          class="d-flex flex-row flex-wrap justify-content-between w-100 bg-white"
+        >
+          <div class="p-2 col-4">
+            <label class="p-1">from</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Departing from"
+            />
+          </div>
+          <div class="p-2 col-4">
+            <label class="p-1">To</label>
+            <input type="text" class="form-control" placeholder="Going to?" />
+          </div>
+          <div class="p-2 col-4">
+            <label class="p-1">Travel Date</label>
+            <input type="date" class="form-control" placeholder="Deprature " />
+          </div>
+        </div>
+        <div
+          class="d-flex flex-row flex-wrap justify-content-between w-100 bg-white"
+        >
+          <div class="p-2 col-4">
+            <label class="p-1">Passengers</label>
+            <input type="text" class="form-control" placeholder="1 Passenger" />
+          </div>
+          <div class="p-2 col-4">
+            <label class="p-1">Class of Travel</label>
+            <input type="text" class="form-control" placeholder="Economy" />
+          </div>
+          <div
+            class="d-flex pb-2 col-4 flex-row flex-wrap text-center align-self-end align-items-md-center justify-content-center"
+          >
+            <input
+              type="checkbox"
+              placeholder="Deprature"
+              value="Direct flight only"
+              class="p-2"
+            />
+            <label class="p-2">Direct flight only</label>
+            <button type="button" class="btn btn-primary p-2">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top flight destinations -->
+
+    <div class="top-flights">
+      <h1 class="text-center pt-3 mt-2">Top Flight Destinations</h1>
+      <div class="d-flex bd-highlight top-flight-des text-center">
+        <div class="p-2 bd-highlight">
+          <button type="button" class="btn btn-primary"><</button>
+        </div>
+        <div
+          class="p-2 w-100 d-flex flex-row flex-wrap justify-content-around top-flight"
+        >
+          <div class="card text-center" style="width: 20rem">
+            <div class="img">
+              <img
+                src="https://www.ilf.com/wp-content/uploads/2016/10/pic_header_airports-1-1920x1127.jpg"
+                class="card-img-top"
+                alt="..."
+                loading="lazy"
+              />
+              <div class="w-100">
+                <span class="text-left">form</span>
+                <h5 class="card-title text-left">AED 1250</h5>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <span class="card-text"> Dubai(DXB),United Arab Emirates </span>
+              <br />
+              <span class="card-text dash"> ✈️-------------✈️ </span>
+              <br />
+              <span class="card-text"> Kuwait(KWI), Kuwait. </span>
+              <hr style="margin-right: 10px; margin-left: 10px" />
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 20rem">
+            <div class="img">
+              <img
+                src="https://www.ilf.com/wp-content/uploads/2016/10/pic_header_airports-1-1920x1127.jpg"
+                class="card-img-top"
+                alt="..."
+                loading="lazy"
+              />
+              <div class="w-100">
+                <span class="text-left">form</span>
+                <h5 class="card-title text-left">AED 1250</h5>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <span class="card-text"> Dubai(DXB),United Arab Emirates </span>
+              <br />
+              <span class="card-text dash"> ✈️-------------✈️ </span>
+              <br />
+              <span class="card-text"> Kuwait(KWI), Kuwait. </span>
+              <hr style="margin-right: 10px; margin-left: 10px" />
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 20rem">
+            <div class="img">
+              <img
+                src="https://www.ilf.com/wp-content/uploads/2016/10/pic_header_airports-1-1920x1127.jpg"
+                class="card-img-top"
+                alt="..."
+                loading="lazy"
+              />
+              <div class="w-100">
+                <span class="text-left">form</span>
+                <h5 class="card-title text-left">AED 1250</h5>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <span class="card-text"> Dubai(DXB),United Arab Emirates </span>
+              <br />
+              <span class="card-text dash"> ✈️-------------✈️ </span>
+              <br />
+              <span class="card-text"> Kuwait(KWI), Kuwait. </span>
+              <hr style="margin-right: 10px; margin-left: 10px" />
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 flex-shrink-1 bd-highlight">
+          <button type="button" class="btn btn-primary">></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Most Populor Hotels -->
+
+    <div>
+      <h1 class="text-center p-3 m-2">Most Populat Hotels</h1>
+      <div class="popular-hotels">
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center popular-title">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <span class="text-muted fs-6">Santorini, Greece</span>
+
+                <span class="text-muted d-block m-2">⭐⭐⭐⭐⭐</span>
+                <button type="button" class="btn btn-primary">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <p class="card-text">
+                  <span class="text-muted fs-6">Santorini, Greece</span>
+                </p>
+                <p class="card-text">
+                  <span class="text-muted">⭐⭐⭐⭐⭐</span>
+                </p>
+                <p class="card-text">
+                  <button type="button" class="btn btn-primary">
+                    Book Now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <p class="card-text">
+                  <span class="text-muted fs-6">Santorini, Greece</span>
+                </p>
+                <p class="card-text">
+                  <span class="text-muted">⭐⭐⭐⭐⭐</span>
+                </p>
+                <p class="card-text">
+                  <button type="button" class="btn btn-primary">
+                    Book Now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <p class="card-text">
+                  <span class="text-muted fs-6">Santorini, Greece</span>
+                </p>
+                <p class="card-text">
+                  <span class="text-muted">⭐⭐⭐⭐⭐</span>
+                </p>
+                <p class="card-text">
+                  <button type="button" class="btn btn-primary">
+                    Book Now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <p class="card-text">
+                  <span class="text-muted fs-6">Santorini, Greece</span>
+                </p>
+                <p class="card-text">
+                  <span class="text-muted">⭐⭐⭐⭐⭐</span>
+                </p>
+                <p class="card-text">
+                  <button type="button" class="btn btn-primary">
+                    Book Now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 col-md-6 text-center" style="max-width: 540px">
+          <div class="row no-gutters most-popular">
+            <div class="col-md-6 text-center first">
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.YYeyeNJbtxEB8P1jmBOkOgHaE7&pid=Api&P=0&h=180"
+                class="card-img"
+                alt="..."
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Agali Houses</h5>
+                <p class="card-text">
+                  <span class="text-muted fs-6">Santorini, Greece</span>
+                </p>
+                <p class="card-text">
+                  <span class="text-muted">⭐⭐⭐⭐⭐</span>
+                </p>
+                <p class="card-text">
+                  <button type="button" class="btn btn-primary">
+                    Book Now
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
